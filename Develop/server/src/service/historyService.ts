@@ -1,8 +1,12 @@
 // TODO: Define a City class with name and id properties
 class City {
-  constructor(id, name) {
-    this.id = id;
-    this.name = name;
+  private baseURL?: string;
+
+  private apiKey?: string;
+
+  constructor() {
+    this.baseURL = process.env.API_BASE_URL || '';
+    this.apiKey = process.env.API_KEY || '';
   }
 
 }
