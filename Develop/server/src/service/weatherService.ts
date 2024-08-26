@@ -19,7 +19,7 @@ class Weather {
     dt: number,
     temp: number,
     humididty: number,
-    wind_spe ed: number
+    wind_speed: number
   ) {
     this.cityName = cityName;
     this.dt = dt;
